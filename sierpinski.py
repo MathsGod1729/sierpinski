@@ -52,7 +52,7 @@ while running:
     if clicked:
         r = rnd.randint(0,2)
         pos = ((pos[0]+POINTS[r][0])//2, (pos[1]+POINTS[r][1])//2)
-        pygame.draw.circle(screen, COLOUR, pos, 2)
+        pygame.draw.circle(screen, COLOUR, pos, 1)
         pygame.display.flip()
 
 pygame.quit()
